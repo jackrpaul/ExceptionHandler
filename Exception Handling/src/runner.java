@@ -7,7 +7,7 @@ public class runner
 
 		public static void main(String[] args)
 			{
-			catcherIE();
+			//catcherIE();
 			catcher1();
 			catcher2();
 			catcher3();
