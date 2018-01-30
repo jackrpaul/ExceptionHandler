@@ -4,7 +4,6 @@ import java.util.*;
 import javax.swing.plaf.synth.SynthSeparatorUI;
 public class runner
 	{
-
 		public static void main(String[] args)
 			{
 			//catcherIE();
@@ -32,7 +31,19 @@ public class runner
 		
 		private static void catcher1()
 			{
-			
+			Super yes = new Super();
+			try
+				{
+				System.out.println((Sub)yes);
+				}
+			catch(ClassCastException fred)
+				{
+				System.out.println("Whoops, you can't cast a double superclass instantiation as a subclass object!");
+				}
+			finally
+				{
+				System.out.println("Phew, glad that's over with.");
+				}
 				
 			}
 		
